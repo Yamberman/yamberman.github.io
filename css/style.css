@@ -1,0 +1,70 @@
+h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: magenta;
+}
+
+#background {
+  background-color: black;
+  position: static;
+}
+
+span {
+  font-weight: bold;
+  color: grey;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+body {
+  font-family: monospace;
+  color: red;
+  font-size: 22px;
+}
+
+a {
+  color: lime /*Цвет обычной ссылки, состояние по умолчанию*/
+}
+
+a:visited {
+  color: orange /*Цвет посещённой ссылки*/
+}
+
+a:hover {
+  color: white /*Цвет ссылки при наведении*/
+}
+
+.quote {
+  text-align: right;
+  font-style: italic;
+  color: cyan;
+}
+
+blockquote {
+  color: brown
+  text-align: right;
+}
+
+.frame {
+  border-style: solid;
+  border-color: grey;
+  border-width: 10px;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.govnokod {
+  text-align: center;
+}
+
+img {
+  margin: 50px
+}
